@@ -1,4 +1,4 @@
-name: Test
+name: 4.3 Test
 on:
   pull_request:
     paths: ['go/**/*.go']
@@ -11,4 +11,3 @@ jobs:
         with:
           go-version: '1.22'
       - run: go test go/excellent/*.go
-      
