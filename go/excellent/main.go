@@ -1,3 +1,4 @@
+// テストプログラム
 package main
 
 func EvenOrOdd(number int) string {
